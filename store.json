@@ -1,0 +1,733 @@
+{
+  "store": {
+    "components": {
+      "id": "01",
+      "processors": {
+        "id": "01-01",
+        "products": [
+          {
+            "id": "01-01-001",
+            "product": "Intel Core i9-12900K",
+            "price": 599,
+            "stock": 15,
+            "date_first_available": "2024-01-27"
+          },
+          {
+            "id": "01-01-002",
+            "product": "AMD Ryzen 9 7950X",
+            "price": 699,
+            "stock": 10,
+            "date_first_available": "2024-02-12"
+          },
+          {
+            "id": "01-01-003",
+            "product": "Intel Core i5-12600K",
+            "price": 289,
+            "stock": 25,
+            "date_first_available": "2024-08-01"
+          },
+          {
+            "id": "01-01-004",
+            "product": "AMD Ryzen 5 5600X",
+            "price": 199,
+            "stock": 30,
+            "date_first_available": "2023-05-27"
+          },
+          {
+            "id": "01-01-005",
+            "product": "Intel Core i3-12100",
+            "price": 129,
+            "stock": 40,
+            "date_first_available": "2024-02-21"
+          }
+        ]
+      },
+      "motherboards": {
+        "id": "01-02",
+        "products": [
+          {
+            "id": "01-02-001",
+            "product": "ASUS ROG Strix Z690-E",
+            "price": 349,
+            "stock": 12,
+            "date_first_available": "2023-08-15"
+          },
+          {
+            "id": "01-02-002",
+            "product": "MSI MAG B660 Tomahawk",
+            "price": 179,
+            "stock": 18,
+            "date_first_available": "2024-06-23"
+          },
+          {
+            "id": "01-02-003",
+            "product": "Gigabyte AORUS X570 Master",
+            "price": 299,
+            "stock": 14,
+            "date_first_available": "2024-01-15"
+          },
+          {
+            "id": "01-02-004",
+            "product": "ASRock B550M Steel Legend",
+            "price": 149,
+            "stock": 20,
+            "date_first_available": "2024-05-22"
+          },
+          {
+            "id": "01-02-005",
+            "product": "ASUS Prime H510M-E",
+            "price": 99,
+            "stock": 35,
+            "date_first_available": "2023-12-17"
+          }
+        ]
+      },
+      "memory": {
+        "id": "01-03",
+        "products": [
+          {
+            "id": "01-03-001",
+            "product": "Corsair Vengeance LPX 16GB DDR4",
+            "price": 89,
+            "stock": 50,
+            "date_first_available": "2023-12-21"
+          },
+          {
+            "id": "01-03-002",
+            "product": "G.Skill Ripjaws V 32GB DDR4",
+            "price": 159,
+            "stock": 30,
+            "date_first_available": "2024-07-19"
+          },
+          {
+            "id": "01-03-003",
+            "product": "Kingston HyperX Fury 8GB DDR4",
+            "price": 45,
+            "stock": 60,
+            "date_first_available": "2024-03-05"
+          },
+          {
+            "id": "01-03-004",
+            "product": "Crucial Ballistix 16GB DDR5",
+            "price": 199,
+            "stock": 25,
+            "date_first_available": "2024-03-28"
+          },
+          {
+            "id": "01-03-005",
+            "product": "Team T-Force Delta 32GB DDR5",
+            "price": 249,
+            "stock": 20,
+            "date_first_available": "2024-01-14"
+          }
+        ]
+      },
+      "storage": {
+        "id": "01-04",
+        "products": [
+          {
+            "id": "01-04-001",
+            "product": "Samsung 970 EVO Plus 1TB SSD",
+            "price": 129,
+            "stock": 40,
+            "date_first_available": "2024-07-08"
+          },
+          {
+            "id": "01-04-002",
+            "product": "Western Digital Black 2TB HDD",
+            "price": 99,
+            "stock": 50,
+            "date_first_available": "2024-02-29"
+          },
+          {
+            "id": "01-04-003",
+            "product": "Crucial MX500 500GB SSD",
+            "price": 59,
+            "stock": 60,
+            "date_first_available": "2024-04-07"
+          },
+          {
+            "id": "01-04-004",
+            "product": "Seagate Barracuda 4TB HDD",
+            "price": 119,
+            "stock": 30,
+            "date_first_available": "2024-05-05"
+          },
+          {
+            "id": "01-04-005",
+            "product": "Kingston A2000 250GB SSD",
+            "price": 45,
+            "stock": 80,
+            "date_first_available": "2024-02-20"
+          }
+        ]
+      },
+      "graphics": {
+        "id": "01-05",
+        "products": [
+          {
+            "id": "01-05-001",
+            "product": "NVIDIA GeForce RTX 3080",
+            "price": 899,
+            "stock": 8,
+            "date_first_available": "2024-03-01"
+          },
+          {
+            "id": "01-05-002",
+            "product": "AMD Radeon RX 6800 XT",
+            "price": 799,
+            "stock": 12,
+            "date_first_available": "2024-07-14"
+          },
+          {
+            "id": "01-05-003",
+            "product": "NVIDIA GeForce GTX 1660 Super",
+            "price": 229,
+            "stock": 20,
+            "date_first_available": "2024-04-28"
+          },
+          {
+            "id": "01-05-004",
+            "product": "AMD Radeon RX 570",
+            "price": 149,
+            "stock": 25,
+            "date_first_available": "2024-01-30"
+          },
+          {
+            "id": "01-05-005",
+            "product": "NVIDIA GeForce RTX 3060",
+            "price": 399,
+            "stock": 15,
+            "date_first_available": "2024-07-27"
+          }
+        ]
+      },
+      "psu": {
+        "id": "01-06",
+        "products": [
+          {
+            "id": "01-06-001",
+            "product": "Corsair RM750x 750W",
+            "price": 129,
+            "stock": 30,
+            "date_first_available": "2023-11-29"
+          },
+          {
+            "id": "01-06-002",
+            "product": "EVGA SuperNOVA 650 G5 650W",
+            "price": 119,
+            "stock": 25,
+            "date_first_available": "2024-01-13"
+          },
+          {
+            "id": "01-06-003",
+            "product": "Seasonic Focus GX-550 550W",
+            "price": 89,
+            "stock": 35,
+            "date_first_available": "2024-01-29"
+          },
+          {
+            "id": "01-06-004",
+            "product": "Thermaltake Toughpower 850W",
+            "price": 139,
+            "stock": 20,
+            "date_first_available": "2023-11-27"
+          },
+          {
+            "id": "01-06-005",
+            "product": "Cooler Master MWE Gold 750W",
+            "price": 109,
+            "stock": 28,
+            "date_first_available": "2024-08-08"
+          }
+        ]
+      },
+      "cooling": {
+        "id": "01-07",
+        "products": [
+          {
+            "id": "01-07-001",
+            "product": "Noctua NH-D15 CPU Cooler",
+            "price": 89,
+            "stock": 18,
+            "date_first_available": "2023-12-28"
+          },
+          {
+            "id": "01-07-002",
+            "product": "Corsair H100i RGB PRO XT",
+            "price": 129,
+            "stock": 15,
+            "date_first_available": "2024-02-06"
+          },
+          {
+            "id": "01-07-003",
+            "product": "Cooler Master Hyper 212",
+            "price": 39,
+            "stock": 40,
+            "date_first_available": "2023-06-07"
+          },
+          {
+            "id": "01-07-004",
+            "product": "NZXT Kraken X63",
+            "price": 149,
+            "stock": 12,
+            "date_first_available": "2024-03-18"
+          },
+          {
+            "id": "01-07-005",
+            "product": "ARCTIC Liquid Freezer II 240",
+            "price": 99,
+            "stock": 20,
+            "date_first_available": "2023-07-02"
+          }
+        ]
+      },
+      "cases": {
+        "id": "01-08",
+        "products": [
+          {
+            "id": "01-08-001",
+            "product": "NZXT H510",
+            "price": 69,
+            "stock": 25,
+            "date_first_available": "2023-06-26"
+          },
+          {
+            "id": "01-08-002",
+            "product": "Corsair 4000D Airflow",
+            "price": 79,
+            "stock": 30,
+            "date_first_available": "2023-12-05"
+          },
+          {
+            "id": "01-08-003",
+            "product": "Fractal Design Meshify C",
+            "price": 99,
+            "stock": 20,
+            "date_first_available": "2024-03-02"
+          },
+          {
+            "id": "01-08-004",
+            "product": "Phanteks Eclipse P400A",
+            "price": 89,
+            "stock": 22,
+            "date_first_available": "2023-12-14"
+          },
+          {
+            "id": "01-08-005",
+            "product": "Lian Li PC-O11 Dynamic",
+            "price": 129,
+            "stock": 15,
+            "date_first_available": "2023-11-28"
+          }
+        ]
+      }
+    },
+    "peripherals": {
+      "id": "02",
+      "keyboards": {
+        "id": "02-01",
+        "products": [
+          {
+            "id": "02-01-001",
+            "product": "Razer BlackWidow V3",
+            "price": 129,
+            "stock": 18,
+            "date_first_available": "2024-03-30"
+          },
+          {
+            "id": "02-01-002",
+            "product": "Logitech MX Keys",
+            "price": 99,
+            "stock": 25,
+            "date_first_available": "2024-04-28"
+          },
+          {
+            "id": "02-01-003",
+            "product": "Corsair K95 RGB Platinum",
+            "price": 199,
+            "stock": 12,
+            "date_first_available": "2023-11-28"
+          },
+          {
+            "id": "02-01-004",
+            "product": "SteelSeries Apex Pro",
+            "price": 179,
+            "stock": 10,
+            "date_first_available": "2024-04-09"
+          },
+          {
+            "id": "02-01-005",
+            "product": "HyperX Alloy FPS Pro",
+            "price": 89,
+            "stock": 20,
+            "date_first_available": "2024-07-16"
+          }
+        ]
+      },
+      "mice": {
+        "id": "02-02",
+        "products": [
+          {
+            "id": "02-02-001",
+            "product": "Logitech G502 Hero",
+            "price": 49,
+            "stock": 35,
+            "date_first_available": "2024-02-09"
+          },
+          {
+            "id": "02-02-002",
+            "product": "Razer DeathAdder V2",
+            "price": 69,
+            "stock": 28,
+            "date_first_available": "2024-07-12"
+          },
+          {
+            "id": "02-02-003",
+            "product": "Corsair M65 RGB Elite",
+            "price": 59,
+            "stock": 30,
+            "date_first_available": "2024-07-09"
+          },
+          {
+            "id": "02-02-004",
+            "product": "SteelSeries Rival 3",
+            "price": 39,
+            "stock": 40,
+            "date_first_available": "2024-04-07"
+          },
+          {
+            "id": "02-02-005",
+            "product": "Logitech MX Master 3",
+            "price": 99,
+            "stock": 22,
+            "date_first_available": "2023-07-06"
+          }
+        ]
+      },
+      "headsets": {
+        "id": "02-03",
+        "products": [
+          {
+            "id": "02-03-001",
+            "product": "HyperX Cloud II",
+            "price": 99,
+            "stock": 20,
+            "date_first_available": "2024-07-06"
+          },
+          {
+            "id": "02-03-002",
+            "product": "SteelSeries Arctis 7",
+            "price": 149,
+            "stock": 18,
+            "date_first_available": "2024-04-07"
+          },
+          {
+            "id": "02-03-003",
+            "product": "Razer Kraken X",
+            "price": 49,
+            "stock": 25,
+            "date_first_available": "2023-12-05"
+          },
+          {
+            "id": "02-03-004",
+            "product": "Corsair HS60 Pro",
+            "price": 69,
+            "stock": 30,
+            "date_first_available": "2024-07-28"
+          },
+          {
+            "id": "02-03-005",
+            "product": "Logitech G733",
+            "price": 129,
+            "stock": 12,
+            "date_first_available": "2024-06-25"
+          }
+        ]
+      },
+      "printers": {
+        "id": "02-04",
+        "products": [
+          {
+            "id": "02-04-001",
+            "product": "HP OfficeJet Pro 8025",
+            "price": 169,
+            "stock": 15,
+            "date_first_available": "2024-04-24"
+          },
+          {
+            "id": "02-04-002",
+            "product": "Canon PIXMA TR4520",
+            "price": 99,
+            "stock": 20,
+            "date_first_available": "2024-06-06"
+          },
+          {
+            "id": "02-04-003",
+            "product": "Epson EcoTank ET-2720",
+            "price": 199,
+            "stock": 12,
+            "date_first_available": "2024-04-17"
+          },
+          {
+            "id": "02-04-004",
+            "product": "Brother HL-L2350DW",
+            "price": 119,
+            "stock": 18,
+            "date_first_available": "2023-12-12"
+          },
+          {
+            "id": "02-04-005",
+            "product": "HP LaserJet Pro M404dn",
+            "price": 299,
+            "stock": 10,
+            "date_first_available": "2024-07-15"
+          }
+        ]
+      },
+      "webcams": {
+        "id": "02-05",
+        "products": [
+          {
+            "id": "02-05-001",
+            "product": "Logitech C920 HD Pro",
+            "price": 79,
+            "stock": 25,
+            "date_first_available": "2024-03-13"
+          },
+          {
+            "id": "02-05-002",
+            "product": "Razer Kiyo",
+            "price": 99,
+            "stock": 18,
+            "date_first_available": "2023-12-26"
+          },
+          {
+            "id": "02-05-003",
+            "product": "Microsoft LifeCam HD-3000",
+            "price": 39,
+            "stock": 30,
+            "date_first_available": "2024-02-26"
+          },
+          {
+            "id": "02-05-004",
+            "product": "Logitech StreamCam",
+            "price": 149,
+            "stock": 15,
+            "date_first_available": "2023-11-12"
+          },
+          {
+            "id": "02-05-005",
+            "product": "AUSDOM AF640 1080P",
+            "price": 59,
+            "stock": 20,
+            "date_first_available": "2024-02-08"
+          }
+        ]
+      },
+      "speakers": {
+        "id": "02-06",
+        "products": [
+          {
+            "id": "02-06-001",
+            "product": "Logitech Z623",
+            "price": 149,
+            "stock": 10,
+            "date_first_available": "2023-08-30"
+          },
+          {
+            "id": "02-06-002",
+            "product": "Creative Pebble 2.0",
+            "price": 29,
+            "stock": 40,
+            "date_first_available": "2024-01-30"
+          },
+          {
+            "id": "02-06-003",
+            "product": "Bose Companion 2 Series III",
+            "price": 99,
+            "stock": 15,
+            "date_first_available": "2024-05-14"
+          },
+          {
+            "id": "02-06-004",
+            "product": "Audioengine A2+ Wireless",
+            "price": 269,
+            "stock": 8,
+            "date_first_available": "2024-04-14"
+          },
+          {
+            "id": "02-06-005",
+            "product": "Razer Nommo Chroma",
+            "price": 149,
+            "stock": 12,
+            "date_first_available": "2024-02-05"
+          }
+        ]
+      }
+    },
+    "monitors": {
+      "id": "03",
+      "gaming": {
+        "id": "03-01",
+        "products": [
+          {
+            "id": "03-01-001",
+            "product": "ASUS ROG Swift PG259QNR",
+            "price": 499,
+            "stock": 12,
+            "date_first_available": "2023-11-26"
+          },
+          {
+            "id": "03-01-002",
+            "product": "Acer Predator XB273K",
+            "price": 899,
+            "stock": 8,
+            "date_first_available": "2024-07-10"
+          },
+          {
+            "id": "03-01-003",
+            "product": "Dell Alienware AW2721D",
+            "price": 699,
+            "stock": 10,
+            "date_first_available": "2024-04-26"
+          },
+          {
+            "id": "03-01-004",
+            "product": "MSI Optix MAG274QRF-QD",
+            "price": 399,
+            "stock": 15,
+            "date_first_available": "2023-10-25"
+          },
+          {
+            "id": "03-01-005",
+            "product": "Samsung Odyssey G7",
+            "price": 649,
+            "stock": 9,
+            "date_first_available": "2024-03-17"
+          }
+        ]
+      },
+      "office": {
+        "id": "03-02",
+        "products": [
+          {
+            "id": "03-02-001",
+            "product": "Dell P2721Q",
+            "price": 399,
+            "stock": 20,
+            "date_first_available": "2024-02-19"
+          },
+          {
+            "id": "03-02-002",
+            "product": "HP Z27",
+            "price": 499,
+            "stock": 15,
+            "date_first_available": "2024-06-16"
+          },
+          {
+            "id": "03-02-003",
+            "product": "ASUS ProArt PA278QV",
+            "price": 299,
+            "stock": 18,
+            "date_first_available": "2023-06-10"
+          },
+          {
+            "id": "03-02-004",
+            "product": "Lenovo ThinkVision P27h-20",
+            "price": 349,
+            "stock": 12,
+            "date_first_available": "2023-05-31"
+          },
+          {
+            "id": "03-02-005",
+            "product": "BenQ PD2700Q",
+            "price": 329,
+            "stock": 14,
+            "date_first_available": "2023-12-17"
+          }
+        ]
+      },
+      "uhd": {
+        "id": "03-03",
+        "products": [
+          {
+            "id": "03-03-001",
+            "product": "LG 27UK650-W",
+            "price": 449,
+            "stock": 10,
+            "date_first_available": "2024-05-26"
+          },
+          {
+            "id": "03-03-002",
+            "product": "Philips Brilliance 328P6VJEB",
+            "price": 499,
+            "stock": 8,
+            "date_first_available": "2024-03-30"
+          },
+          {
+            "id": "03-03-003",
+            "product": "Acer Nitro XV282K",
+            "price": 649,
+            "stock": 6,
+            "date_first_available": "2024-06-03"
+          },
+          {
+            "id": "03-03-004",
+            "product": "ASUS TUF Gaming VG289Q",
+            "price": 349,
+            "stock": 12,
+            "date_first_available": "2024-05-29"
+          },
+          {
+            "id": "03-03-005",
+            "product": "Samsung UR55",
+            "price": 399,
+            "stock": 14,
+            "date_first_available": "2024-06-05"
+          }
+        ]
+      },
+      "curved": {
+        "id": "03-04",
+        "products": [
+          {
+            "id": "03-04-001",
+            "product": "Samsung CJ791",
+            "price": 699,
+            "stock": 8,
+            "date_first_available": "2023-12-17"
+          },
+          {
+            "id": "03-04-002",
+            "product": "LG 34WN80C-B",
+            "price": 599,
+            "stock": 10,
+            "date_first_available": "2024-02-19"
+          },
+          {
+            "id": "03-04-003",
+            "product": "MSI Optix MAG342CQR",
+            "price": 449,
+            "stock": 12,
+            "date_first_available": "2024-02-16"
+          },
+          {
+            "id": "03-04-004",
+            "product": "Dell UltraSharp U3419W",
+            "price": 899,
+            "stock": 6,
+            "date_first_available": "2024-02-17"
+          },
+          {
+            "id": "03-04-005",
+            "product": "ASUS ROG Strix XG35VQ",
+            "price": 749,
+            "stock": 7,
+            "date_first_available": "2024-01-08"
+          }
+        ]
+      }
+    }
+  }
+}

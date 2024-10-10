@@ -1,0 +1,110 @@
+/* 2024-08-12 */
+body {
+  background-color: lightcyan;
+}
+h1 {
+  text-align: center;
+  color: darkcyan;
+}
+h2 {
+  text-align: center;
+  color: darkslateblue
+}
+.h2s {
+  text-align: left;
+  color: darkslategray;
+  margin: 30px;
+}
+.section {
+  background-color: lightgray;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.section-total h2 {
+  text-align: right;
+  background-color: whitesmoke;
+  padding: 10px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin: 30px;
+  color: darkslategray;
+}
+.subsection {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+}
+.product {
+  margin-left: 40px;
+}
+.product-table {
+  width: 100%;
+}
+.product-table th {
+  width: 13%;
+}
+.product-table th:nth-child(2) {
+  width: 45%; 
+}
+.product-table th:nth-child(3) {
+  width: 12%; 
+}
+.product-table th:nth-child(4) {
+  width: 7%; 
+}
+.product-table th:nth-child(5) {
+  width: 13%; 
+}
+.product-table th:nth-child(6) {
+  width: 10%; 
+}
+.product-table td:nth-last-child(-n+4) {
+  text-align: right; 
+}
+.product-table td:first-child, .product-table td:last-child {
+  text-align: center;
+}
+.product-table th {
+  background-color: lightcyan;
+}
+.product-table th, .product-table td {
+  border: none; 
+}
+.product-table .even-row {
+  background-color: whitesmoke;
+}
+.product-table .odd-row {
+  background-color: white;
+}
+.date h2, .warehouse-total h2 {
+  text-align: right;
+  background-color: lightsteelblue;
+  padding: 20px;
+  padding-right: 70px;
+  border-radius: 20px;
+  margin: 20px;
+  color: black;
+}
+.subsection-total td {
+  background: none;
+  text-align: right;
+  font-weight: bold;
+}
+td, th {
+  padding: 5px;
+}
+.low-stock {
+  background-color: lightpink;
+}
+.medium-stock {
+  background-color: lightyellow;
+}
+.high-stock {
+  background-color: #D0F0C0;
+}
+.clearance {
+  background-color: #FBCEB1;
+}
